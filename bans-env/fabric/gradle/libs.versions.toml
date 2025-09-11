@@ -1,0 +1,2 @@
+[libraries]
+permissions = { group = "me.lucko", name = "fabric-permissions-api", version = "0.4.0" }
