@@ -70,10 +70,10 @@
 		<checkerqual.version>3.49.2</checkerqual.version>
 
 		<!-- Platform dependencies -->
-		<bungeecord.version>1.21-R0.3</bungeecord.version>
-		<spigot.version>1.8.8-R0.1-20160221.082514-43</spigot.version>
+		<bungeecord.version>1.21-R0.4</bungeecord.version>
+		<spigot.version>1.21.11-R0.1-SNAPSHOT</spigot.version>
 		<sponge.version>12.0.0</sponge.version>
-		<velocity.version>3.1.0</velocity.version>
+		<velocity.version>3.4.0-SNAPSHOT</velocity.version>
 
 		<!-- Internal hash -->
 		<self-implementation.hash>1dfb80352adbb90d3d25a3cc4f1d6d0dc310c22c96d95906c7b7947558ad90e545a7becef36fd0c5b28c7472099251a42e753efdec975157e68b46d51f3bd70a</self-implementation.hash>
@@ -175,6 +175,7 @@
 										<exclude>space.arim.libertybans.addon:*</exclude>
 										<exclude>org.spigotmc:spigot-api</exclude>
 										<exclude>org.spongepowered:spongeapi</exclude>
+										<exclude>com.velocitypowered:velocity-api</exclude>
 									</excludes>
 								</requireReleaseDeps>
 							</rules>

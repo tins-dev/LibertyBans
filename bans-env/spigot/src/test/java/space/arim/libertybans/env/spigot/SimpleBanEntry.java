@@ -90,6 +90,16 @@ public final class SimpleBanEntry implements BanEntry {
 		throw new UnsupportedOperationException();
 	}
 
+	@Override
+	public void remove() {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public Object getBanTarget() {
+		throw new UnsupportedOperationException();
+	}
+
 	public static Builder forUser(String user) {
 		return new Builder(user);
 	}
